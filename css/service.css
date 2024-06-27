@@ -8,3 +8,54 @@
 body{
     background-color: #445E4D !important;
 }
+/* Basic styling for the page */
+
+h1 {
+    padding-top: 15%;
+    text-align:center;
+    margin: 20px 0;
+    color: #EDE6AA;
+
+}
+
+/* Flexbox container */
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.container > div {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    background: #f8f8f8;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container h2 i {
+    margin-right: 10px;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container p {
+    padding: 10px;
+    text-align: justify;
+}
