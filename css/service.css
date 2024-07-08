@@ -11,8 +11,12 @@ body{
 /* Basic styling for the page */
 
 h1 {
-    padding-top: 15%;
-    text-align:center;
+    padding-top: 150px;
+    text-align: center;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 20px 0;
     color: #EDE6AA;
 
@@ -30,12 +34,12 @@ h1 {
     border: 1px solid #ccc;
     border-radius: 8px;
     overflow: hidden;
-    background: #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: #9cd4a2;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .container h2 {
-    background: #f8f8f8;
+    background: #65825a;
     margin: 0;
     padding: 10px;
     text-align: center;
