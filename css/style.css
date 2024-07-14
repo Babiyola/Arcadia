@@ -3,10 +3,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "poppins",sans-serif;
+   font-family: "poppins",sans-serif;
 }
 body{
-    background-color: #445E4D !important;
+    background-color: #445E4D;
 }
 .header {
 position: fixed;
@@ -157,6 +157,7 @@ h3.custom-heading {
     }
 }
 .copy-right-sec{
+    margin-top: 10%;
     padding: 1.5rem;
       background: #474d48;
       color: #fff;
