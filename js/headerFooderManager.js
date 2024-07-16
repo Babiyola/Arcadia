@@ -27,9 +27,9 @@ class specialFooter extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
         <section id="copy-right">
-            <div class="copy-right-sec">
-                <i class="fa-solid fa-copyright"></i>  
-                <p>Arcadia @copyrights, All rights reserved</p>
+            <div class="copy-right-sec"> 
+                <p>Arcadia @copyrights, All rights reserved<br> Politique de gestion des cookies | Mention légales</p>
+
             </div>
         </section>`;
     }
