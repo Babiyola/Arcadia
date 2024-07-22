@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;  
+    box-sizing: border-box;
+}
+.container h3{
+    padding-top: 120px;
+    color: aliceblue;
+    font-size: 30px;
+}
+p{
+    color: aliceblue;
+}
+
+.card {
+    margin: 10px; 
+}
+
+.card-img-top {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    padding: 5px;
+}
+
+.card-body {
+    padding: 25px;
+    margin-top: -15px;
+}
+.card-body h5{
+    color: rgb(6, 127, 89);
+}
+
+.card-body p{
+    color: rgb(81, 79, 79);
+}

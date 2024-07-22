@@ -3,17 +3,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "poppins",sans-serif;
+   font-family: "poppins",sans-serif;
 }
-body{
-    background-color: #445E4D !important;
-}
+
+    body {
+        background-image: url('/assets/imagezoo/loginbg.jpg');
+        background-size: cover; 
+        background-attachment: fixed;
+        background-position: center; 
+    }
+    
+   
+
 .header {
 position: fixed;
 top: 0;
 left: 0;
 width: 100%;
-padding: 1.3rem 10%;
+padding: 1.2rem 10%;
 background: #474d48;
 display:flex;
 justify-content: space-between;
@@ -107,60 +114,53 @@ display: none;
     transition-delay: calc(0.15s*var(--i));
 }
 }
-.image-section {
-    padding-top: 7rem;
-    padding-bottom: 2rem;
+.carousel-item {
+    margin-top: 10%;
 }
 
-.image-section .img-fluid {
-    border-radius: 5px;
-    transition: transform 0.3s ease;
-    max-width: 100%;
-    height: auto;
+/* rating*/
+.avg_rating{
+
+    margin-top: 70%;
 }
 
-.image-section .img-fluid:hover {
-    transform: scale(1.05);
-}
-.overlay-text {
-    position:absolute;
-    top: 30%;
-    left: 40%;
-    transform: translate(-50%, -50%);
-    font-size: 2vw;
-    font-family: "poppins",sans-serif;
-    color: #40403e;
-    width: 100%;
-    padding: 1.3rem 20%;
-    animation: fadeIn 5s ease-in-out;
+
+
+.progressSection .holder{
+   
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
 }
 
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 2;
-    }
-}
-h3.custom-heading {
-    margin-left: 2%;
-    font-style: oblique;
-    padding-top: 2rem;
-    color: rgb(230, 243, 169);
-    font-size: 0.8rem;
+.progressSection .holder > div{
+    display: flex;
+    justify-content: space-between;
 }
 
-@media (min-width: 1024px) {
-    h3.custom-heading {
-        font-size: 1.2rem;
-    }
+.star-light{
+    color:#bbb5!important
 }
+
+
+.text-warning{
+    color:rgb(250, 143, 43)!important
+}
+
+
+.submit_star{
+    cursor: pointer;
+}
+
+
 .copy-right-sec{
+    margin-top: 10%;
     padding: 1.5rem;
       background: #474d48;
       color: #fff;
       text-align: center;
   }
   
-  
+
+
