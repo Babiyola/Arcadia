@@ -1,6 +1,5 @@
-# Zoo Management System
-
-Welcome to the Zoo Management System project! This web application allows you to manage a zoo, including habitats, animals, and roles for different users (admin, zoo staff, and veterinary doctors). The system is built using HTML, CSS, JavaScript, Bootstrap, PHP (with OOP), and MySQL.
+# ZOO Arcadia
+Bienvenue dans le projet Arcadia ! Cette application Web vous permet de gérer un zoo, y compris les habitats, les animaux et les rôles des différents utilisateurs (administrateur, personnel du zoo et médecins vétérinaires). Le système est construit en utilisant HTML, CSS, JavaScript, Bootstrap, PHP (avec POO) et MySQL.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -9,19 +8,19 @@ Welcome to the Zoo Management System project! This web application allows you to
 - [Installation](#installation)
 - [Usage](#usage)
 - [Roles and Permissions](#roles-and-permissions)
-- [Contributing](#contributing)
+
 
 ## Project Overview
 
-The Zoo Management System provides an interface for managing different habitats and animals within the zoo. Each habitat and animal has specific details, including images. The system also supports role-based access control, allowing only authorized users to perform certain actions.
+L'arcadia fournit une interface pour gérer différents habitats et animaux au sein du zoo. Chaque habitat et animal comporte des détails spécifiques, y compris des images. Le système prend également en charge le contrôle d'accès basé sur les rôles, permettant uniquement aux utilisateurs autorisés d'effectuer certaines actions.
 
 ## Features
 
-- View and manage habitats (Savane, Jungle, Marais)
-- View detailed information about each animal, including medical conditions and food prescriptions
-- Role-based access control for admins, zoo staff, and veterinary doctors
-- Add, edit, and delete animal records
-- Upload images for habitats and animals
+- Visualiser et gérer les habitats (Savane, Jungle, Marais)
+- Afficher des informations détaillées sur chaque animal, y compris les conditions médicales et les prescriptions alimentaires
+- Contrôle d'accès basé sur les rôles pour les administrateurs, le personnel du zoo et les médecins vétérinaires
+- Ajouter, modifier et supprimer des enregistrements d'animaux
+- Télécharger des images pour les habitats et les animaux
 
 ## Technologies Used
 
@@ -75,38 +74,28 @@ The Zoo Management System provides an interface for managing different habitats 
 
 5. **Start the Web Server**
 
-    ```bash
-    php -S localhost:8080
+    ```
+    php -S localhost:3000
     ```
 
 6. **Access the Application**
 
-    Open your web browser and navigate to `http://localhost:8000`.
+    Open your web browser and navigate to `http://localhost:3000`.
 
 ## Usage
 
-- **Home Page:** Lists all habitats with images and links to detailed animal lists.
-- **Habitat Page:** Displays animals in the selected habitat with images and links to detailed animal information.
-- **Animal Page:** Shows detailed information about the selected animal, including height, weight, status, family name, food, medical conditions, and food prescriptions.
-- **Admin Panel:** Allows the admin to manage users, habitats, and animals.
-
+- **Page d'accueil :** Répertorie tous les habitats avec des images et des liens vers des listes détaillées d'animaux.
+- **Page Habitat :** Affiche les animaux dans l'habitat sélectionné avec des images et des liens vers des informations détaillées sur les animaux.
+- **Page Animal :** Affiche des informations détaillées sur l'animal sélectionné, notamment la taille, le poids, le statut, le nom de famille, la nourriture, les conditions médicales et les prescriptions alimentaires.
+- **Panneau d'administration :** Permet à l'administrateur de gérer les utilisateurs, les habitats et les animaux.
 
 
 
 ## Roles and Permissions
 
-- **Admin:** Manage users, habitats, and animals.
-- **Zoo Staff:** View animal details and prescribed food.
-- **Veterinary Doctor:** Add and update medical conditions and food prescriptions for animals.
+- **Admin :** Gérez les utilisateurs, les habitats et les animaux.
+- **Personnel du zoo :** Consultez les détails des animaux et les aliments prescrits.
+- **Médecin vétérinaire :** Ajoutez et mettez à jour les conditions médicales et les prescriptions alimentaires pour les animaux.
 
-## Contributing
-
-Contributions are welcome! Please follow these steps to contribute:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bugfix.
-3. Make your changes and commit them with descriptive messages.
-4. Push your changes to your fork.
-5. Create a pull request to the main repository.
 
 
