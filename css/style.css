@@ -5,15 +5,22 @@
     box-sizing: border-box;
    font-family: "poppins",sans-serif;
 }
-body{
-    background-color: #445E4D;
-}
+
+    body {
+        background-image: url('/assets/imagezoo/loginbg.jpg');
+        background-size: cover; 
+        background-attachment: fixed;
+        background-position: center; 
+    }
+    
+   
+
 .header {
 position: fixed;
 top: 0;
 left: 0;
 width: 100%;
-padding: 1.3rem 10%;
+padding: 1.2rem 10%;
 background: #474d48;
 display:flex;
 justify-content: space-between;
@@ -155,5 +162,5 @@ display: none;
       text-align: center;
   }
   
-  
+
 
